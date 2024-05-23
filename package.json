@@ -1,0 +1,35 @@
+{
+  "name": "code-snippet-generator",
+  "version": "1.0.0",
+  "description": "Create Code Snippets easily",
+  "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anburocky3/code-snippet-generator.git"
+  },
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon --exec ts-node --files src/app.ts",
+    "build": "tsc -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "snippets",
+    "code",
+    "snippets",
+    "generator"
+  ],
+  "author": "Anbuselvan Annamalai",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "common-tags": "^1.8.2",
+    "front-matter": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/common-tags": "^1.8.4",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
